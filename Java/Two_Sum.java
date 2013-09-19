@@ -4,7 +4,7 @@ public class Two_Sum {
 	// DO NOT write main() function
 		        
 	int[] result = new int[2];
-	for (int i = 0; i< numbers.length;i++)
+	for (int i = 0; i< numbers.length;i++)	//in java, use length, instead of size() in Cpp
 	{
 		for (int j = 0; j < numbers.length; j++)
 		{
