@@ -1,12 +1,12 @@
-public class Solution {
+public class Two_Sum {
     public int[] twoSum(int[] numbers, int target) {
 	// Start typing your Java solution below
 	// DO NOT write main() function
 		        
-	int[2] result;
-	for (int i = 0; i< numbers.size();i++)
+	int[] result = new int[2];
+	for (int i = 0; i< numbers.length;i++)
 	{
-		for (int j = 0; j < numbers.size(); j++)
+		for (int j = 0; j < numbers.length; j++)
 		{
 			if (numbers[i] + numbers[j] == target)
 				{
