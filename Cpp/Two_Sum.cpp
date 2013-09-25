@@ -17,4 +17,4 @@ public:
             }
         }
     }
-};
+}; //end of class Solution
